@@ -1,3 +1,10 @@
-commit 2e44c57af5c72c910b410a999823c0af4a9f878d (HEAD -> main)
-Author: yamanaka-isus <example.com>
-Date:   Tue Oct 21 13:55:26 2025 +0900
+mkdir git_challenge
+cd git_challenge
+git init
+echo "Hello, world!" >> hello_world.txt
+git add hello_world.txt
+git commit -m "hello_world.txtを追加"
+echo "こんにちは、世界！" >> hello_world.txt
+git add hello_world.txt
+git commit -m "日本語訳を追記"
+git log --oneline
